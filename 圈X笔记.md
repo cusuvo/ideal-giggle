@@ -8,21 +8,17 @@
 -  [KOP-XIAO](https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/QuantumultX_Profiles.conf)
 -  [DivineEngine 神机](https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Outbound.conf)
 -  [NobyDa野比](https://github.com/NobyDa)
--  [erdongchanyo 耳东橙](https://raw.githubusercontent.com/erdongchanyo/Rules/main/Quantumult X/LazyConf/QuantumultX_EDC-Lazy.conf)
--  **[Cuttlefish 墨鱼]([ddgksf2013/Cuttlefish: Scripts for self-use, ⛔️ fork (github.com)](https://github.com/ddgksf2013/Cuttlefish))  特别多好用的规则**
+-  [erdongchanyo 耳东橙](https://github.com/erdongchanyo/Rules/blob/main/Quantumult%20X/README.md) (教程清晰)
+-  [Cuttlefish 墨鱼](https://github.com/ddgksf2013/Cuttlefish)
 -  [limbopro 毒奶](https://raw.githubusercontent.com/limbopro/Profiles4limbo/main/full.conf)
 -  [Tartarus2014 烧烤哥](https://raw.githubusercontent.com/Tartarus2014/QuantumultX-Script/main/QuanX.conf)
 -  [zwf234 奇心科技](https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/qixin.conf)
 -  [w37fh 北纬37度的大飛](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/QuantumultX_diy.conf)
 -  [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)（去广告很好用）
-
 -  [ id77](https://github.com/id77/QuantumultX)
+-  [zqzess](https://github.com/zqzess/rule_for_quantumultX/tree/master/QuantumultX) (有简洁版配置)
 
--  [张军]()
-
-## 2️⃣小白配置
-
-
+## 2️⃣懒人配置
 
   ```
   https://raw.githubusercontent.com/erdongchanyo/Rules/main/Quantumult X/LazyConf/QuantumultX_EDC-Lazy.conf
@@ -33,6 +29,13 @@
   ```
   https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Profile/QuantumultX.conf
   ```
+
+-  [zqzess](https://github.com/zqzess/rule_for_quantumultX/tree/master/QuantumultX) 简洁版配置
+
+  ```
+  https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/zqzess_lite.conf
+  ```
+
 
 ## 3️⃣分流
 
@@ -54,7 +57,7 @@
 
 ## 4️⃣复写
 
-- [奇心合集](https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/qxrules.conf)
+-  [奇心合集](https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/qxrules.conf)
 
 -  [墨鱼](https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Profile/QuantumultX.conf)
 
