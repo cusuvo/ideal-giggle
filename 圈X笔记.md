@@ -61,6 +61,11 @@
 
 -  [墨鱼](https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Profile/QuantumultX.conf)
 
+-  番茄小说去广告
+   ```
+   https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/FanQieNovel.qxrewrite
+   ```
+
 #### 获取cookie
 
 - 野比获取cookie（爱奇艺、52破解、百度贴吧、京东、）
@@ -133,39 +138,7 @@
 
 ## 7️⃣其他
 
-### #京东签到
 
-- QX 1.0.10+ 脚本配置 
-
-```
-[task_local]
-5 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东多合一签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png,enabled=true
-```
-
-```
-[rewrite_local]
-#可以添加为远程重写，具体如下
-# 获取京东Cookie
-^https:\/\/(api\.m|me-api)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?) url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
-# 获取钢镚签到body. 
-^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/hy\/h5\/m\/appSign\? url script-request-body https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
-```
-
-```
-[mitm]
-hostname = ms.jr.jd.com, me-api.jd.com, api.m.jd.com
-```
-
-- 获取cookie
-
-  ①添加[远程复写]([QuantumultX/JD_Remote_Cookie.conf at master · RagBagCN/QuantumultX (github.com)](https://github.com/RagBagCN/QuantumultX/blob/master/Script/JD_Remote_Cookie.conf))
-
-  https://raw.githubusercontent.com/RagBagCN/QuantumultX/master/Script/JD_Remote_Cookie.conf
-
-  ②Safari浏览器打开[登录](https://home.m.jd.com/myJd/newhome.action)  https://home.m.jd.com/myJd/newhome.action 点击"我的"页面
-      或者使用[旧版网址](https://bean.m.jd.com/bean/signIndex.action)  https://bean.m.jd.com/bean/signIndex.action 点击签到并且出现签到日历
-
-- BoxJs或QX Gallery订阅地址: https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json
                       
 
 
